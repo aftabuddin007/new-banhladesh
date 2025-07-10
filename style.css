@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*font-fira-sanns*/
+.fira-sans-thin {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.fira-sans-extralight {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.fira-sans-light {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-medium {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-sans-semibold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fira-sans-bold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fira-sans-extrabold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.fira-sans-black {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.fira-sans-thin-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.fira-sans-extralight-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.fira-sans-light-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.fira-sans-regular-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.fira-sans-medium-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.fira-sans-semibold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.fira-sans-bold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.fira-sans-extrabold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.fira-sans-black-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.all-use{
+    
+}
+/*header-section*/
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+    color: green;
+}
+.sign{
+    background-color: rgb(255, 255, 255);
+    color:#006A50;
+    border: 1px solid #006A50;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 15px;
+    border-radius: 8px;
+}
+.header-element{
+    max-width: 1280px;
+    margin: 10px auto;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 20px;
+    margin-top: 20px;
+    
+    
+
+}
+.header{
+    
+   height: 100px; 
+    
+}
+/* banner-section*/
+.shot-des{
+    font-size: 24px;
+    font-weight: normal;
+    color: #0E0E0E;
+}
+.banner-lt{
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 20px;
+}
+.explore{
+    background-color: #006A50;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 8px;
+    border:1px  #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.banner{
+    width: 1280px;
+    height: 560px;
+    background-image: linear-gradient(to left,#77eab5 ,#509676);
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 80px ;
+    
+}
+.banner-title{
+    margin: 50px;
+     
+}
+/*pillors-section*/
+.pillars{
+   
+   width: 1280px;
+   height: 324px; 
+   margin: 0 auto;
+}
+.pt{
+    margin-top:100px ;
+    font-size: 40px;
+    font-weight: bold;
+}
+.pc{
+    height: 244px;
+    width: 302;
+    border: 1px ;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(227, 227, 216, 0.587);
+}
+.pc img{
+    margin-bottom: 20px;
+}
+
+.pc .vc h3{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.pc .vc p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #0E0E0E 70%;
+}
+.pillor-card{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+/*visit-of-future-section*/
+.vis-ti{
+    margin-top: 60px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.vis-des{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.vision-ti-dis{
+    width: 1280px;
+    height: 120px;
+    margin: 0 auto;
+}
+.vc{
+  height: 325px;
+    width: 410px;
+    border: 1px ;
+    padding: 30px;
+    border:1px ;
+    border-radius: 10px;  
+    
+}
+.vc p{
+    margin-top: 20px;
+}
+.vc img{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.vis-card{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    
+}
+.learn-bt{
+    border-radius:8px ;
+    height: 41px;
+    width: 116px;
+    margin-top: 25px;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px white;
+}
+.you-des{
+     font-size: 16px;
+     padding-top: 30px;
+}
+.younos{
+    height: 96px;
+    width: 1280px;
+   margin: 0 auto;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+.younos .you-name{
+    margin-top: 10px;
+}
+/*your openion metter*/
+.your-opps
+{
+    margin-top: 100px;
+}
+.your-openion{
+    height: 481px;
+    width: 1280px;
+    margin: 0 auto;
+}
+.question{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #7ab4d3d8;
+    height: 80px;
+    align-items: center;
+    padding: 0 30px;
+}
+.sele-q{
+    font-size: 16px;
+    font-weight: 600;
+}
+.selecting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid rgb(195, 190, 190);
+}
+#pobtn{
+    background-color: #55a8c7b1;
+    height: 44px;
+    width: 152px;
+    color: #0E0E0E;
+}
+option{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*recent-news*/
+.re-ne-ti-des{
+    margin: 0 auto;
+    height: 96px;
+    width: 1280px;
+}
+.sat-img1{
+    height: 306px;
+    width: 408px;
+    border-radius: 24px;
+    background-size: cover;
+}
+.sat-tit{
+    font-size: 32px;
+    font-weight: bold;
+    
+}
+.news{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    height: 400px;
+    margin-top: 100px;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 48px;
+    
+}
+.sat-btn{
+    background-color: #006A50;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 8px;
+    border:1px  #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.set-des{
+ font-size: 16px;
+ margin-top: 20px;
+}
