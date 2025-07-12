@@ -115,6 +115,9 @@
 .all-use{
     
 }
+body{
+  background: #F5F5F5;
+}
 /*header-section*/
 .logo{
     font-size: 32px;
@@ -373,4 +376,129 @@ option{
 .set-des{
  font-size: 16px;
  margin-top: 20px;
+}
+/*donet-section*/
+.donet-title{
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+}
+.donet-description{
+  font-size: 16px;
+  color:#0E0E0E;
+  margin-bottom: 20px;
+}
+.btn{
+  height: 128px;
+  width: 264px;
+  color: #0E0E0E;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border:1px solid rgba(163, 154, 154, 0.518) ;
+  margin-bottom: 20px;
+}
+.btn:hover{
+  background-color:#C6E4D6 ;
+}
+.donet-amount{
+  display: flex;
+  justify-content: space-around;
+}
+.do-n{
+   height: 64px;
+   width: 1032px;
+   color: #0E0E0E;
+   font-size: 30px;
+   align-items: center;
+   border-radius: 10px;
+   border: 1px solid rgba(163, 154, 154, 0.518);
+   margin-bottom: 20px;
+   text-align: center;
+}
+.donet-body{
+  padding: 30px;
+  margin-top:100px;
+    height: 464px;
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F5F5F5;
+    margin-bottom: 90px;
+}
+.donet-ti-des{
+  margin-top:px;
+}
+/*subscribe section*/
+.subs-title{
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+  margin-bottom: 20px;
+
+}
+.subs-description{
+  font-size: 16px;
+  color: #0E0E0E;
+  margin-bottom: 20px;
+}
+.subscribe{
+  width: 1280px;
+  height: 395px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #C6E4D6;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 80px 265px;
+  
+  margin-bottom: 100px;
+}
+.subs{
+  height: 235px;
+  width: 750px;
+  text-align: center;
+  margin: 0 auto;
+
+  
+}
+.sub-des{
+  margin-top: 20px;
+}
+.en-em{
+  height: 55px;
+  width: 600px;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px ;
+  border: 1px solid rgba(255, 255, 255, 0.443);
+}
+/*footer*/
+.foot-ti{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.foot-logo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.footer-ti{
+  height: 38px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin-top: 30px;
+  
+   margin-bottom: 100px;
+}
+footer{
+  background-color: #ffffff;
+  
+  
 }
